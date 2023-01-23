@@ -10,6 +10,7 @@ Plaintexts can be rearranged into a ciphertext using a key, scrambling the order
 For example, the plaintext "THIS IS WIKIPEDIA" could be encrypted to "TWDIP SIHII IKASE". To decipher the encrypted message without the key, an attacker could try to guess possible words and phrases like DIATHESIS, DISSIPATE, WIDTH, etc., but it would take them some time to reconstruct the plaintext because there are many combinations of letters and words. By contrast, someone with the key could reconstruct the message easily:
 
 ------------------------------------
+```
 C I P H E R     Key
 1 4 5 3 2 6     Sequence (key letters in alphabetical order)
 T H I S I S     Plaintext
@@ -20,4 +21,5 @@ Ciphertext by column:
   #1 TWD, #2 IP, #3 SI, #4 HII, #5 IKA, #6 SE
 Ciphertext in groups of 5 for readability:
   TWDIP SIHII IKASE
+  ```
 ----------------------------------
