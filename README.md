@@ -23,3 +23,28 @@ Ciphertext in groups of 5 for readability:
   TWDIP SIHII IKASE
   ```
 ----------------------------------
+
+Example Output
+```
+Text to encrypt: CYBERSECURITYGOOD.
+Plaintext arranged into the grid:
+[['C' 'E' 'Y']
+['Y' 'C' 'G']
+['B' 'U' 'O']
+['E' 'R' 'O']
+['R' 'I' 'D']
+['S' 'T' '.']]
+Key: CIPHER
+Permutation: [0, 3, 4, 2, 1, 5]
+Encrypted Result: CEYRIDEROYCGBUOST.
+----------------
+Text to decrypt: CEYRIDEROYCGBUOST.
+Group size: 3
+Crypted text arranged into the grid:
+[['C' 'R' 'E' 'Y' 'B' 'S']
+['E' 'I' 'R' 'C' 'U' 'T']
+['Y' 'D' 'O' 'G' 'O' '.']]
+Key: CIPHER
+Key Permutation:[0, 3, 4, 2, 1, 5]
+Decrypted Result: CYBERSECURITYGOOD
+```
